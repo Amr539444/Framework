@@ -1,0 +1,104 @@
+<div>
+  <div class="pt-3 conatiner">
+    <div class="text-center pt-4">
+      <h2 class="text-uppercase mb-3 fs-1 fw-bolder">conatct section</h2>
+      <div class="d-flex align-items-center justify-content-center mb-3">
+        <div class="line me-3"></div>
+        <i class="fa-solid fa-star"></i>
+        <div class="line ms-3"></div>
+      </div>
+    </div>
+
+    <form class=" mx-auto w-50 my-5">
+
+      <div class="form-group">
+        <div class="input-container">
+          <label
+            [class.active]="isFocusedName || name"
+            for="name"
+            class="floating-label"
+          >
+            Name
+          </label>
+          <input
+            type="text"
+            id="name"
+            class="form-control mb-5 "
+            [(ngModel)]="name"
+            (focus)="isFocusedName = true"
+            (blur)="isFocusedName = false"
+            placeholder=" "
+          />
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="input-container">
+          <label
+            [class.active]="isFocusedAge || userAge"
+            for="userAge"
+            class="floating-label"
+          >
+            User Age
+          </label>
+          <input
+            type="number"
+            id="userAge"
+            class="form-control mb-5"
+            [(ngModel)]="userAge"
+            (focus)="isFocusedAge = true"
+            (blur)="isFocusedAge = false"
+            placeholder=" "
+          />
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="input-container">
+          <label
+            [class.active]="isFocusedEmail || email"
+            for="email"
+            class="floating-label"
+          >
+            Email
+          </label>
+          <input
+            type="email"
+            id="email"
+            class="form-control mb-5"
+            [(ngModel)]="email"
+            (focus)="isFocusedEmail = true"
+            (blur)="isFocusedEmail = false"
+            placeholder=" "
+          />
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="input-container ">
+          <label
+            [class.active]="isFocusedPassword || password"
+            for="password"
+            class="floating-label"
+          >
+            Password
+          </label>
+          <input
+            type="password"
+            id="password"
+            class="form-control  "
+            [(ngModel)]="password"
+            (focus)="isFocusedPassword = true"
+            (blur)="isFocusedPassword = false"
+            placeholder=" "
+          />
+          <div>
+            <button class="btn text-white" >
+            send Message
+            </button>
+          </div>
+      </div>
+      </div>
+    </form>
+  </div>
+</div>
