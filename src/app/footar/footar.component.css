@@ -1,41 +1,41 @@
-.card , .footer {
-  background-color: #2C3E50;
-  border: #2C3E50 solid 0px;
-  color: #fff; 
+.card,
+.footer {
+  background-color: #2c3e50;
+  border: #2c3e50 solid 0px;
+  color: #fff;
 }
 
-.card-body h3{
-    font-weight: 500;
-    line-height: 34px;
-    font-size: 27px;
+.card-body h3 {
+  font-weight: 500;
+  line-height: 34px;
+  font-size: 27px;
 }
 .card-body p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
-.p-cont{
-    background-color: #1A252F;
-    height: 70px;
+.p-cont {
+  background-color: #1a252f;
+  height: 70px;
 }
-.p-cont p{
-    color: white;
-    padding-top: 20px;
-}
-
-.icons{
-    padding: 15px;
-}
-.icon{
-    padding: 15px;
-    border-radius: 50%;
-    border: #fff 1px solid;
-    transition: all .2s linear;
+.p-cont p {
+  color: white;
+  padding-top: 20px;
 }
 
+.icons {
+  padding: 15px;
+}
+.icon {
+  padding: 15px;
+  border-radius: 50%;
+  border: #fff 1px solid;
+  transition: all 0.2s linear;
+}
 
-.icon:hover{
-    color: #000;
-    background-color: #1A252F;
+.icon:hover {
+  color: #000;
+  background-color: #1a252f;
 }
