@@ -11,15 +11,11 @@ import {FormsModule} from "@angular/forms"
 export class ContactComponent {
 
 
-name: string = '';
+  userName: string = '';
   userAge: string = '';
-  email: string = '';
-  password: string = '';
+  userEmail: string = '';
+  userPassword: string = '';
 
-  isFocusedName: boolean = false;
-  isFocusedAge: boolean = false;
-  isFocusedEmail: boolean = false;
-  isFocusedPassword: boolean = false;
 
 }
 

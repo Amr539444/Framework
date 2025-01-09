@@ -16,41 +16,10 @@
   margin-top: 30px !important;
 }
 
-.top-label {
-  color: #2c3e50;
-  padding: 10px;
+.text-sec {
+  color: #007bff;
+  transition: top 0.4s linear;
 }
-
-.input-container {
-  position: relative;
-  margin-bottom: 1.5rem;
-}
-
-.floating-label {
-  position: absolute;
-  top: 15%;
-  left: 10px;
-  transform: translateY(-20%);
-  transition: all 0.4s ease;
-  color: #ccc;
-  pointer-events: none;
-}
-
-.floating-label.active {
-  top: -27px;
-  font-size: 15px;
-  color: #1abc9c;
-}
-
-.form-control {
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  outline: none;
-}
-
-.form-control:focus {
-  border-color: #007bff;
+.text-bot {
+  top: 50px !important;
 }
