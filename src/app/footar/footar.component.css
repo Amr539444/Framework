@@ -2,7 +2,6 @@
   background-color: #2C3E50;
   border: #2C3E50 solid 0px;
   color: #fff; 
-  padding: 50px;
 }
 
 .card-body h3{
@@ -26,7 +25,7 @@
 }
 
 .icons{
-    padding: 18px;
+    padding: 15px;
 }
 .icon{
     padding: 15px;
